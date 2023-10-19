@@ -1,4 +1,5 @@
 'use client'
+import styles from '../app/page.module.css'
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
@@ -28,9 +29,9 @@ export default function ScrollToTop() {
   }, []);
 
   return (
-    <div className="scrolltotop">
+    <div className={styles.scrolltotop}>
       {isVisible && (
-        <div onClick={scrollToTop} className="fixed bottom-6 right-6 cursor-pointer text-2xl">
+        <div onClick={scrollToTop}>
           <Image src='/seta-para-cima.png' width='50' height='50' alt='seta pra cima' />
         </div>
       )}

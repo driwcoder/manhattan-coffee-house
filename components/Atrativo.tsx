@@ -2,7 +2,7 @@ import styles from '../app/page.module.css'
 
 const Atrativo = () => {
   return (
-    <section className={styles.atrativo}>
+    <section id='informacoes' className={styles.atrativo}>
       <h2>EXPERIMENTE O MELHOR CAFÉ DA CIDADE!</h2>
       <p>
         O café não é uma simples bebida que foi preparada por alguém. O café é

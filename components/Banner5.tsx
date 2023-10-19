@@ -2,7 +2,7 @@ import styles from '../app/page.module.css'
 
 const Banner5 = () => {
   return (
-    <div className={styles.banner5}>
+    <div id='horarios' className={styles.banner5}>
       <h1>Horários de Funcionamento</h1>
       <div >
         <p>SEGUNDA</p>

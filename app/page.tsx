@@ -25,7 +25,8 @@ export default function Home() {
       <Banner3 />
       <Banner5 />
       <Footer />
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
+      <div className={styles.teste}></div>
     </main>
   )
 }
